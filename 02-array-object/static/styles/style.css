@@ -1,0 +1,35 @@
+html, body {
+    height: 100%; /* Установите высоту для html и body */
+    margin: 0; /* Уберите отступы */
+}
+
+.container {
+    height: 100%; /* Установите высоту для контейнера */
+}
+
+.form-control {
+    height: 5%;
+    font-size: 2.5vh;
+}
+
+#create {
+    height: 4%;
+    font-size: calc(0.8vw + 0.8vh);
+}
+
+.list-group {
+    height: 6%; /* Установите высоту для списка */
+}
+
+.list-group-item {
+    height: 100%;
+    font-size: calc(1vw + 1vh); /* Адаптивный размер шрифта для элементов списка */
+}
+
+h1 {
+    font-size: calc(2vw + 2vh); /* Размер шрифта будет зависеть от ширины и высоты окна */
+}
+
+.btn-success, .btn-danger {
+    font-size: 80%;
+}
