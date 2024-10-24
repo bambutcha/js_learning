@@ -30,6 +30,6 @@ h1 {
     font-size: calc(2vw + 2vh); /* Размер шрифта будет зависеть от ширины и высоты окна */
 }
 
-.btn-success, .btn-danger {
+.btn-small {
     font-size: 80%;
 }
